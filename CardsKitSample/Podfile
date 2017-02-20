@@ -1,0 +1,7 @@
+target 'CardsKitSample' do
+  pod 'NGCardKit', :git => 'https://github.com/nimrodgat/NGCardKit.git', :tag => '1.0.0'
+end
+
+ target "CardsKitSampleTests" do
+   pod 'FBSnapshotTestCase/Core'
+ end

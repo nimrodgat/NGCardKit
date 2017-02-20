@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF8E80DD990F44966586F7F /* libPods-CardsKitSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BF08D0CA67BB28A23C9C93 /* libPods-CardsKitSample.a */; };
+		3C0AFEAA1E35168F0017DECE /* CardsKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0AFEA91E35168F0017DECE /* CardsKitSampleTests.m */; };
+		3C0CFB8A1E134D2B006EF115 /* CKSWeatherDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB891E134D2B006EF115 /* CKSWeatherDataModel.m */; };
+		3C0CFB8D1E134EE6006EF115 /* CKSWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB8C1E134EE6006EF115 /* CKSWeatherView.m */; };
+		3C0CFB901E1459B5006EF115 /* CKSGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB8F1E1459B5006EF115 /* CKSGradientView.m */; };
+		3C0CFB961E148767006EF115 /* UIColor+Blending.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB951E148767006EF115 /* UIColor+Blending.m */; };
+		3C0CFB991E15BCC9006EF115 /* CKSWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB981E15BCC9006EF115 /* CKSWeatherService.m */; };
+		3C0CFB9F1E1AF3F1006EF115 /* UIColor+Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0CFB9E1E1AF3F1006EF115 /* UIColor+Temperature.m */; };
+		3C0FA0381E11F579004C750E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FA0371E11F579004C750E /* main.m */; };
+		3C0FA03B1E11F579004C750E /* CKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FA03A1E11F579004C750E /* CKSAppDelegate.m */; };
+		3C0FA03E1E11F579004C750E /* CKSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FA03D1E11F579004C750E /* CKSViewController.m */; };
+		3C0FA0431E11F579004C750E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0FA0421E11F579004C750E /* Assets.xcassets */; };
+		3C0FA0461E11F579004C750E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0FA0441E11F579004C750E /* LaunchScreen.storyboard */; };
+		9A61D53C2A2C66926AAE34DB /* libPods-CardsKitSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A19873ECF4CF4CDA5DA79D7 /* libPods-CardsKitSampleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0AFEAC1E35168F0017DECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0FA02B1E11F579004C750E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0FA0321E11F579004C750E;
+			remoteInfo = CardsKitSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C0CFBA61E21A6A3006EF115 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09CC1873829E307FBCDBEE28 /* Pods-CardsKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardsKitSample/Pods-CardsKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		1686AC249B2E64D210668358 /* Pods-CardsKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardsKitSampleTests/Pods-CardsKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0AFEA71E35168F0017DECE /* CardsKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0AFEA91E35168F0017DECE /* CardsKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsKitSampleTests.m; sourceTree = "<group>"; };
+		3C0AFEAB1E35168F0017DECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0CFB881E134D2B006EF115 /* CKSWeatherDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSWeatherDataModel.h; sourceTree = "<group>"; };
+		3C0CFB891E134D2B006EF115 /* CKSWeatherDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSWeatherDataModel.m; sourceTree = "<group>"; };
+		3C0CFB8B1E134EE6006EF115 /* CKSWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSWeatherView.h; sourceTree = "<group>"; };
+		3C0CFB8C1E134EE6006EF115 /* CKSWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSWeatherView.m; sourceTree = "<group>"; };
+		3C0CFB8E1E1459B5006EF115 /* CKSGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSGradientView.h; sourceTree = "<group>"; };
+		3C0CFB8F1E1459B5006EF115 /* CKSGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSGradientView.m; sourceTree = "<group>"; };
+		3C0CFB941E148767006EF115 /* UIColor+Blending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Blending.h"; sourceTree = "<group>"; };
+		3C0CFB951E148767006EF115 /* UIColor+Blending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Blending.m"; sourceTree = "<group>"; };
+		3C0CFB971E15BCC9006EF115 /* CKSWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSWeatherService.h; sourceTree = "<group>"; };
+		3C0CFB981E15BCC9006EF115 /* CKSWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSWeatherService.m; sourceTree = "<group>"; };
+		3C0CFB9D1E1AF3F1006EF115 /* UIColor+Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Temperature.h"; sourceTree = "<group>"; };
+		3C0CFB9E1E1AF3F1006EF115 /* UIColor+Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Temperature.m"; sourceTree = "<group>"; };
+		3C0FA0331E11F579004C750E /* CardsKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0FA0371E11F579004C750E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C0FA0391E11F579004C750E /* CKSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKSAppDelegate.h; sourceTree = "<group>"; };
+		3C0FA03A1E11F579004C750E /* CKSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKSAppDelegate.m; sourceTree = "<group>"; };
+		3C0FA03C1E11F579004C750E /* CKSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKSViewController.h; sourceTree = "<group>"; };
+		3C0FA03D1E11F579004C750E /* CKSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKSViewController.m; sourceTree = "<group>"; };
+		3C0FA0421E11F579004C750E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C0FA0451E11F579004C750E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C0FA0471E11F579004C750E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0FA0541E11F74D004C750E /* NGCardKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NGCardKit.framework; path = "../../build/Debug-iphoneos/NGCardKit.framework"; sourceTree = "<group>"; };
+		3CC129111E35202B005163DE /* CKSViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSViewController_Private.h; sourceTree = "<group>"; };
+		545D907B8FA74C04B5108375 /* Pods-CardsKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardsKitSampleTests/Pods-CardsKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		822F9EA9795DB1A688D73260 /* Pods-CardsKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardsKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardsKitSample/Pods-CardsKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		9A19873ECF4CF4CDA5DA79D7 /* libPods-CardsKitSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardsKitSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BF08D0CA67BB28A23C9C93 /* libPods-CardsKitSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardsKitSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0AFEA41E35168F0017DECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A61D53C2A2C66926AAE34DB /* libPods-CardsKitSampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA0301E11F579004C750E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF8E80DD990F44966586F7F /* libPods-CardsKitSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07914AC89E850E6D154C8DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09CC1873829E307FBCDBEE28 /* Pods-CardsKitSample.debug.xcconfig */,
+				822F9EA9795DB1A688D73260 /* Pods-CardsKitSample.release.xcconfig */,
+				1686AC249B2E64D210668358 /* Pods-CardsKitSampleTests.debug.xcconfig */,
+				545D907B8FA74C04B5108375 /* Pods-CardsKitSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C0AFEA81E35168F0017DECE /* CardsKitSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0AFEA91E35168F0017DECE /* CardsKitSampleTests.m */,
+				3C0AFEAB1E35168F0017DECE /* Info.plist */,
+			);
+			path = CardsKitSampleTests;
+			sourceTree = "<group>";
+		};
+		3C0FA02A1E11F579004C750E = {
+			isa = PBXGroup;
+			children = (
+				3C0FA0351E11F579004C750E /* CardsKitSample */,
+				3C0AFEA81E35168F0017DECE /* CardsKitSampleTests */,
+				3C0FA0341E11F579004C750E /* Products */,
+				3C0FA0531E11F74D004C750E /* Frameworks */,
+				07914AC89E850E6D154C8DDB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0FA0341E11F579004C750E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA0331E11F579004C750E /* CardsKitSample.app */,
+				3C0AFEA71E35168F0017DECE /* CardsKitSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0FA0351E11F579004C750E /* CardsKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA0421E11F579004C750E /* Assets.xcassets */,
+				3C0FA0391E11F579004C750E /* CKSAppDelegate.h */,
+				3C0FA03A1E11F579004C750E /* CKSAppDelegate.m */,
+				3C0CFB8E1E1459B5006EF115 /* CKSGradientView.h */,
+				3C0CFB8F1E1459B5006EF115 /* CKSGradientView.m */,
+				3CC129111E35202B005163DE /* CKSViewController_Private.h */,
+				3C0FA03C1E11F579004C750E /* CKSViewController.h */,
+				3C0FA03D1E11F579004C750E /* CKSViewController.m */,
+				3C0CFB881E134D2B006EF115 /* CKSWeatherDataModel.h */,
+				3C0CFB891E134D2B006EF115 /* CKSWeatherDataModel.m */,
+				3C0CFB971E15BCC9006EF115 /* CKSWeatherService.h */,
+				3C0CFB981E15BCC9006EF115 /* CKSWeatherService.m */,
+				3C0CFB8B1E134EE6006EF115 /* CKSWeatherView.h */,
+				3C0CFB8C1E134EE6006EF115 /* CKSWeatherView.m */,
+				3C0FA0471E11F579004C750E /* Info.plist */,
+				3C0FA0441E11F579004C750E /* LaunchScreen.storyboard */,
+				3C0FA0361E11F579004C750E /* Supporting Files */,
+				3C0CFB941E148767006EF115 /* UIColor+Blending.h */,
+				3C0CFB951E148767006EF115 /* UIColor+Blending.m */,
+				3C0CFB9D1E1AF3F1006EF115 /* UIColor+Temperature.h */,
+				3C0CFB9E1E1AF3F1006EF115 /* UIColor+Temperature.m */,
+			);
+			path = CardsKitSample;
+			sourceTree = "<group>";
+		};
+		3C0FA0361E11F579004C750E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA0371E11F579004C750E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C0FA0531E11F74D004C750E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA0541E11F74D004C750E /* NGCardKit.framework */,
+				A6BF08D0CA67BB28A23C9C93 /* libPods-CardsKitSample.a */,
+				9A19873ECF4CF4CDA5DA79D7 /* libPods-CardsKitSampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0AFEA61E35168F0017DECE /* CardsKitSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0AFEB01E35168F0017DECE /* Build configuration list for PBXNativeTarget "CardsKitSampleTests" */;
+			buildPhases = (
+				99561DE0DDBCAC2CA8F5B020 /* [CP] Check Pods Manifest.lock */,
+				3C0AFEA31E35168F0017DECE /* Sources */,
+				3C0AFEA41E35168F0017DECE /* Frameworks */,
+				3C0AFEA51E35168F0017DECE /* Resources */,
+				9EEFEBA30210B167032A3D4E /* [CP] Embed Pods Frameworks */,
+				4AC6278BEADC850808951802 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0AFEAD1E35168F0017DECE /* PBXTargetDependency */,
+			);
+			name = CardsKitSampleTests;
+			productName = CardsKitSampleTests;
+			productReference = 3C0AFEA71E35168F0017DECE /* CardsKitSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C0FA0321E11F579004C750E /* CardsKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0FA04A1E11F579004C750E /* Build configuration list for PBXNativeTarget "CardsKitSample" */;
+			buildPhases = (
+				7C5B8E7542B271A809307F86 /* [CP] Check Pods Manifest.lock */,
+				3C0FA02F1E11F579004C750E /* Sources */,
+				3C0FA0301E11F579004C750E /* Frameworks */,
+				3C0FA0311E11F579004C750E /* Resources */,
+				3C0CFBA61E21A6A3006EF115 /* Embed Frameworks */,
+				2871F51596B557CA8E71FC5C /* [CP] Embed Pods Frameworks */,
+				539A98F85984C779A44892C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardsKitSample;
+			productName = CardsKitSample;
+			productReference = 3C0FA0331E11F579004C750E /* CardsKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0FA02B1E11F579004C750E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nim Gat";
+				TargetAttributes = {
+					3C0AFEA61E35168F0017DECE = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = H4EBG42PL9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C0FA0321E11F579004C750E;
+					};
+					3C0FA0321E11F579004C750E = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = H4EBG42PL9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C0FA02E1E11F579004C750E /* Build configuration list for PBXProject "CardsKitSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0FA02A1E11F579004C750E;
+			productRefGroup = 3C0FA0341E11F579004C750E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0FA0321E11F579004C750E /* CardsKitSample */,
+				3C0AFEA61E35168F0017DECE /* CardsKitSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0AFEA51E35168F0017DECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA0311E11F579004C750E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0FA0461E11F579004C750E /* LaunchScreen.storyboard in Resources */,
+				3C0FA0431E11F579004C750E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2871F51596B557CA8E71FC5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardsKitSample/Pods-CardsKitSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC6278BEADC850808951802 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardsKitSampleTests/Pods-CardsKitSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		539A98F85984C779A44892C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardsKitSample/Pods-CardsKitSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5B8E7542B271A809307F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99561DE0DDBCAC2CA8F5B020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EEFEBA30210B167032A3D4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardsKitSampleTests/Pods-CardsKitSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0AFEA31E35168F0017DECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0AFEAA1E35168F0017DECE /* CardsKitSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0FA02F1E11F579004C750E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0CFB991E15BCC9006EF115 /* CKSWeatherService.m in Sources */,
+				3C0CFB961E148767006EF115 /* UIColor+Blending.m in Sources */,
+				3C0CFB9F1E1AF3F1006EF115 /* UIColor+Temperature.m in Sources */,
+				3C0CFB8A1E134D2B006EF115 /* CKSWeatherDataModel.m in Sources */,
+				3C0FA03E1E11F579004C750E /* CKSViewController.m in Sources */,
+				3C0CFB8D1E134EE6006EF115 /* CKSWeatherView.m in Sources */,
+				3C0FA03B1E11F579004C750E /* CKSAppDelegate.m in Sources */,
+				3C0CFB901E1459B5006EF115 /* CKSGradientView.m in Sources */,
+				3C0FA0381E11F579004C750E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0AFEAD1E35168F0017DECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0FA0321E11F579004C750E /* CardsKitSample */;
+			targetProxy = 3C0AFEAC1E35168F0017DECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C0FA0441E11F579004C750E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0FA0451E11F579004C750E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C0AFEAE1E35168F0017DECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1686AC249B2E64D210668358 /* Pods-CardsKitSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4EBG42PL9;
+				INFOPLIST_FILE = CardsKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimgat.CardsKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsKitSample.app/CardsKitSample";
+			};
+			name = Debug;
+		};
+		3C0AFEAF1E35168F0017DECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545D907B8FA74C04B5108375 /* Pods-CardsKitSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4EBG42PL9;
+				INFOPLIST_FILE = CardsKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimgat.CardsKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsKitSample.app/CardsKitSample";
+			};
+			name = Release;
+		};
+		3C0FA0481E11F579004C750E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C0FA0491E11F579004C750E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0FA04B1E11F579004C750E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CC1873829E307FBCDBEE28 /* Pods-CardsKitSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4EBG42PL9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CardsKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimgat.CardsKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C0FA04C1E11F579004C750E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822F9EA9795DB1A688D73260 /* Pods-CardsKitSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4EBG42PL9;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CardsKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimgat.CardsKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0AFEB01E35168F0017DECE /* Build configuration list for PBXNativeTarget "CardsKitSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0AFEAE1E35168F0017DECE /* Debug */,
+				3C0AFEAF1E35168F0017DECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0FA02E1E11F579004C750E /* Build configuration list for PBXProject "CardsKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA0481E11F579004C750E /* Debug */,
+				3C0FA0491E11F579004C750E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0FA04A1E11F579004C750E /* Build configuration list for PBXNativeTarget "CardsKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0FA04B1E11F579004C750E /* Debug */,
+				3C0FA04C1E11F579004C750E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0FA02B1E11F579004C750E /* Project object */;
+}
